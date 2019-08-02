@@ -1,0 +1,3 @@
+# gomock-sample
+
+gomockでテストをするサンプル
