@@ -1,7 +1,9 @@
 package main
 
-import "gomock-sample/getaccess"
-import "gomock-sample/httpaccess"
+import (
+	"gomock-sample/getaccess"
+	"gomock-sample/httpaccess"
+)
 
 func main() {
 	ga := getaccess.NewGetAccess(httpaccess.NewTestAPI("localhost:8080"))
